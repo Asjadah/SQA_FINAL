@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: '18'
       - run: npm install -g newman
-      - run: newman run Postman_files/Books.postman_collection.json -e Postman_files/test.postman_environment.json
+      - run: newman run Postman_files/Books.postman_collection.json -e Postman_files/Test_postman_environment.json
